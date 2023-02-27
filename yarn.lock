@@ -9322,17 +9322,17 @@ __metadata:
   linkType: hard
 
 "chromatic@npm:^6.5.3":
-  version: 6.17.0
-  resolution: "chromatic@npm:6.17.0"
+  version: 6.17.1
+  resolution: "chromatic@npm:6.17.1"
   dependencies:
     "@discoveryjs/json-ext": ^0.5.7
     "@types/webpack-env": ^1.17.0
-    snyk-nodejs-lockfile-parser: ^1.43.1
+    snyk-nodejs-lockfile-parser: ^1.47.4
   bin:
     chroma: bin/main.cjs
     chromatic: bin/main.cjs
     chromatic-cli: bin/main.cjs
-  checksum: fafb2b3930a7e4436736180f20b42ff6b1a22520583e185d03d0fc002e9cc98b1c00e5a5fb9f2985d1f2b22c3b1cc68dee6dc1db38c007a3c54dd9b28860b67c
+  checksum: cac153f5e3ddc5faccffbabb1407271dcc8e63fc44bdf59fbe7acb00dbd779af82af7d37bff23091023bc9825ff5ceada51c18880fa5549e7262566b9fd9c296
   languageName: node
   linkType: hard
 
@@ -24049,21 +24049,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"snyk-config@npm:^4.0.0-rc.2":
-  version: 4.0.0
-  resolution: "snyk-config@npm:4.0.0"
+"snyk-config@npm:^5.0.0":
+  version: 5.1.0
+  resolution: "snyk-config@npm:5.1.0"
   dependencies:
     async: ^3.2.0
     debug: ^4.1.1
     lodash.merge: ^4.6.2
     minimist: ^1.2.5
-  checksum: befb223a740dc2c3f9ac640d8f731d8982b713bc060d241206ccb2fa92b19a1a04f9d38a39a2ee18a16a567d826154380b4c944431b9e2e2675b1a5b50260c9b
+  checksum: 41b4e6faf76a8f5ad7565889bb4a41067ff06640fa2042c1f9726b99a28ab510cf6d56fdc985c4c0e321f8e2e4487f73b86e631653b8c4b2ff8866f628003a02
   languageName: node
   linkType: hard
 
-"snyk-nodejs-lockfile-parser@npm:^1.43.1":
-  version: 1.45.1
-  resolution: "snyk-nodejs-lockfile-parser@npm:1.45.1"
+"snyk-nodejs-lockfile-parser@npm:^1.47.4":
+  version: 1.47.4
+  resolution: "snyk-nodejs-lockfile-parser@npm:1.47.4"
   dependencies:
     "@snyk/dep-graph": ^2.3.0
     "@snyk/graphlib": 2.1.9-patch.3
@@ -24076,12 +24076,12 @@ __metadata:
     lodash.isempty: ^4.4.0
     lodash.topairs: ^4.3.0
     semver: ^7.3.5
-    snyk-config: ^4.0.0-rc.2
+    snyk-config: ^5.0.0
     tslib: ^1.9.3
     uuid: ^8.3.0
   bin:
     parse-nodejs-lockfile: bin/index.js
-  checksum: 05029cea144fc17a09f1c66b82e26801678db6ee843073a1632599636a2de2ec481eddf7585b887aeee681ef84b045254ace72dbdca3aa1db787df1541b81ec9
+  checksum: 781d2bcefd4d2cf841790a085dd1ab8c5ea1be8be6c54aa5f37b4efc2b6e7a848179307bca1dfb10822ab8e747a80467b5f4b9f5dfa2bd2ea172b7a7a51e7012
   languageName: node
   linkType: hard
 
